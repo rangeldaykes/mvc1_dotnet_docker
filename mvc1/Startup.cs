@@ -65,7 +65,7 @@ namespace mvc1
             app.UseStaticFiles();
             //app.UseCookiePolicy();
 
-            PopulaDb.IncluiDadosDB(app);
+            //PopulaDb.IncluiDadosDB(app);
 
             app.UseMvc(routes =>
             {
